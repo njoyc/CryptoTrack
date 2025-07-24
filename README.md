@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+🌐 CryptoTrack – Live Cryptocurrency Dashboard
+CryptoTrack is a sleek, responsive web application designed for real-time cryptocurrency tracking across INR, USD, and EUR. Whether you're a trader, analyst, or crypto enthusiast, CryptoTrack gives you the tools you need to monitor, analyze, and stay ahead of the market.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Key Highlights
+💹 Real-Time Market Data
+Instantly access the latest prices for the top 100 cryptocurrencies, updated every 30 seconds for maximum accuracy.
 
-## Available Scripts
+📢 Smart Price Alerts
+Set personalized price thresholds for any coin and get notified via browser toasts or email when your targets are hit.
 
-In the project directory, you can run:
+📈 Dynamic Charting
+Explore interactive 7-day price trend charts for individual coins using smooth, responsive line graphs.
 
-### `npm start`
+💾 Data Exports
+Download real-time or historical price data in CSV format for offline use, reporting, or analysis.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🔐 Secure User Accounts
+Register and log in securely to customize alerts and manage your personal tracking preferences.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🌍 Multi-Currency Mode
+Toggle between INR, USD, and EUR to view crypto values in your preferred currency for better localization.
 
-### `npm test`
+🛠️ Tech Stack
+Frontend: React.js, Chart.js, React-Toastify
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Backend: Node.js, Express.js
 
-### `npm run build`
+Database: MongoDB with Mongoose ORM
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+💼 Who Is It For?
+🧑‍💻 Crypto Investors & Enthusiasts
+Stay informed with live updates and take action quickly with price alerts tailored to your portfolio.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📊 Market Researchers
+Track trends visually and extract raw data for in-depth offline analysis, reporting, or strategy building.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🔔 Long-Term Holders
+Never miss the right moment to buy or sell—set alerts and let CryptoTrack notify you at the perfect time.
 
-### `npm run eject`
+🌐 Global Users
+Easily switch between currencies to view coin values relevant to your location or investment focus.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🧠 Educators & Bloggers
+Use real, reliable market data and visualizations to educate your audience, publish insights, or showcase trends.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🧪 Data Nerds & Developers
+Export accurate datasets to fuel your trading bots, test financial models, or run analytical experiments.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🔐 Registered Users
+Enjoy a more personalized experience—save your alert settings and access coin data tailored to your account.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+CryptoTrack is more than a tracker—it's your companion in navigating the fast-paced world of digital currencies.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
