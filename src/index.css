@@ -1,0 +1,77 @@
+body{
+  font-family:Arial,sans-serif;
+  margin:0;
+  padding:0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+.app{
+  max-width:1200px;
+  margin:0 auto;
+  padding:20px;
+  text-align:center;
+}
+h1{
+  margin-bottom:20px;
+  color:#007bff;
+}
+.crypto-container{
+  display:grid;
+  grid-template-columns:repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding:10px;
+}
+.error{
+  color: red;
+}
+.crypto-card{
+  border:1px solid #ccc;
+  border-radius:8px;
+  padding:16px;
+  text-align:center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+.crypto-card:hover{
+  transform: scale(1.05);
+}
+.crypto-image{
+  width:50px;
+  height:50px;
+  margin-bottom:8px;
+}
+.crypto-symbol{
+  color: #555;
+  font-size:14px;
+  margin:4px 0;
+}
+.crypto-price{
+  font-size:18px;
+  font-weight: bold;
+  color: #007bff;
+
+}
+
+
+.crypto-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.crypto-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  width: 280px;
+  margin: 10px;
+  box-sizing: border-box;
+  transition: transform 0.2s ease-in-out;
+}
+
+.crypto-card:hover {
+  transform: translateY(-5px);
+}

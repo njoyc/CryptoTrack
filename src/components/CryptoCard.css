@@ -1,0 +1,66 @@
+.crypto-card {
+  width: 220px;         /* reduced width */
+  padding: 10px;        /* reduced padding */
+  margin: 10px;         /* spacing between cards */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 0.85rem;   /* smaller font size */
+  background-color: #fff;
+  transition: transform 0.2s;
+}
+
+.crypto-card:hover {
+  transform: scale(1.03);
+}
+
+.crypto-card img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 5px;
+}
+
+.crypto-card input {
+  width: 90%;
+  padding: 5px;
+  margin-top: 8px;
+  font-size: 0.75rem;
+}
+
+.crypto-card button {
+  margin: 4px;
+  padding: 5px 10px;
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+.crypto-card button {
+  margin: 4px;
+  padding: 6px 12px;
+  font-size: 0.75rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: #fff; /* White font color */
+  background-color: #007bff; /* Blue background */
+  transition: background-color 0.2s ease;
+}
+
+.crypto-card button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.crypto-card button.show-chart-btn {
+  background-color: #28a745; /* Green for "Show Chart" */
+}
+
+.crypto-card button.show-chart-btn:hover {
+  background-color: #1e7e34;
+}

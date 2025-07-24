@@ -1,0 +1,120 @@
+.app {
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+input,
+select {
+  padding: 8px;
+  margin: 5px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.crypto-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Each crypto card */
+.crypto-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  width: 300px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* On hover */
+.crypto-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Alert input + button beside each other */
+.alert-section {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+
+.alert-section input {
+  flex: 1;
+  padding: 6px;
+  font-size: 0.95rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.alert-section button {
+  padding: 6px 12px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.alert-section button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .crypto-card {
+    width: 90%;
+  }
+
+  .alert-section {
+    flex-direction: column;
+  }
+
+  .alert-section button {
+    width: 100%;
+  }
+}
+/* Pagination Controls */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.pagination button.active {
+  background-color: #4caf50; /* Highlight active page */
+  color: white;
+}
+
+.pagination button:hover {
+  background-color: #f1f1f1;
+}
+
+
+
+.crypto-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
