@@ -80,13 +80,13 @@ const App = () => {
     return () => clearInterval(interval);
   }, [fetchCryptoData]);
 
-  const convertPrice = (price, fromCurrency, toCurrency) => {
+  const convertPrice = useCallback((price, fromCurrency, toCurrency) => {
     if (!price || !exchangeRates[fromCurrency] || !exchangeRates[toCurrency]) {
       return price;
     }
     const priceInUSD = price / exchangeRates[fromCurrency];
     return priceInUSD * exchangeRates[toCurrency];
-  };
+  }, [exchangeRates]);
 
   useEffect(() => {
     setAlertCoins((prevAlerts) => {
@@ -101,7 +101,7 @@ const App = () => {
       });
       return updatedAlerts;
     });
-  }, [currency, exchangeRates]);
+  }, [currency, exchangeRates, convertPrice]);
 
   const handlePriceAlert = (coinId, price) => {
     setAlertCoins((prev) => {
